@@ -1,0 +1,28 @@
+# Core requirements
+streamlit
+openai
+langchain
+langchain-community
+langchain-core
+python-dotenv
+tiktoken
+
+# Vector stores
+chromadb
+azure-search-documents
+
+# Data processing
+numpy
+pandas
+PyPDF2
+pypdf
+pdf2image
+
+# Azure
+azure-core
+
+# Additional dependencies
+pyyaml
+tqdm
+requests
+pillow

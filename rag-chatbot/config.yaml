@@ -1,0 +1,20 @@
+# Vector Store Settings
+vector_store: "CHROMA"  # Options: CHROMA, AZURE_SEARCH
+chroma_persist_directory: "./chroma_db"
+
+# LLM Settings
+# OpenAI Settings
+llm_type: "OPENAI"  # Options: OPENAI, AZURE_OPENAI
+model_name: "gpt-4o-mini"
+embedding_model_name: "text-embedding-ada-002"
+
+# Memory Settings
+max_memory_messages: 10
+
+# Azure Settings (if needed)
+azure_search_endpoint: ""
+azure_search_key: ""
+azure_search_index_name: ""
+azure_openai_key: ""
+azure_openai_endpoint: ""
+azure_deployment_name: ""
